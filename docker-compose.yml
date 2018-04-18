@@ -1,0 +1,9 @@
+version: '3'
+
+services: 
+  
+  rasa_core:
+    build: .
+    ports:
+      - 5000:5000
+      - 5005:5005
